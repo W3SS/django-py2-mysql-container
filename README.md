@@ -6,8 +6,6 @@ a running script, like the included one.
 Use it like this:
 ```
 FROM f213/django-py2-mysql-container
-
-RUN apt-get --no-install-recommends install -y python-numpy  # your stuff here
 ```
 
 During build your app is copied to the `/app` folder. Entrypoint should be located at `/app/run`.
